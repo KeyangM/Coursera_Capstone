@@ -6,6 +6,8 @@ pd.set_option('display.max_rows', None)
 
 import json # library to handle JSON files
 
+import sklearn
+
 #!conda install -c conda-forge geopy --yes # uncomment this line if you haven't completed the Foursquare API lab
 from geopy.geocoders import Nominatim # convert an address into latitude and longitude values
 
@@ -23,3 +25,5 @@ from sklearn.cluster import KMeans
 import folium # map rendering library
 
 print('Libraries imported.')
+
+
